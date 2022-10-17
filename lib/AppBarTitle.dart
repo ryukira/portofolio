@@ -1,9 +1,12 @@
+// ignore_for_file: file_names
+
 import 'package:flutter/cupertino.dart';
 
 class AppBarTitle extends StatelessWidget {
   final String text;
 
-  AppBarTitle({
+  const AppBarTitle({
+    super.key,
     required this.text,
     /*@required this.ontab*/
   });

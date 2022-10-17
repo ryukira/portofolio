@@ -3,8 +3,8 @@
 import 'package:flutter/material.dart';
 import 'package:portofolio/WorkCustomData.dart';
 
-class WorkBox extends StatelessWidget {
-  const WorkBox({super.key});
+class MobileWorkBox extends StatelessWidget {
+  const MobileWorkBox({super.key});
 
   @override
   Widget build(BuildContext context) {

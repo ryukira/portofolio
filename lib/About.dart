@@ -1,7 +1,11 @@
+// ignore_for_file: file_names
+
 import 'package:flutter/material.dart';
 import 'package:portofolio/CustomText.dart';
 
 class About extends StatelessWidget {
+  const About({super.key});
+
   Widget technology(BuildContext context, String text) {
     return Row(
       children: [
@@ -27,13 +31,13 @@ class About extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size;
-    return Container(
+    return SizedBox(
       height: size.height,
       width: size.width - 100,
       child: Row(
         children: [
           //ABOUT ME
-          Container(
+          SizedBox(
             height: size.height * 0.9,
             width: size.width / 2 - 100,
             child: Column(
@@ -42,10 +46,10 @@ class About extends StatelessWidget {
                 Row(
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    CustomText(
+                    const CustomText(
                       text: "About Me",
                       textsize: 26.0,
-                      color: const Color(0xffCCD6F6),
+                      color: Color(0xffCCD6F6),
                       fontWeight: FontWeight.w700,
                       letterSpacing: 0,
                     ),
@@ -63,12 +67,12 @@ class About extends StatelessWidget {
                   height: size.height * 0.07,
                 ),
                 Wrap(
-                  children: [
+                  children: const [
                     CustomText(
                       text:
                           "Hello! I'm Rully, currently living in Jakarta. I enjoy building things and learn new technology.\n\n",
                       textsize: 16.0,
-                      color: const Color(0xff828DAA),
+                      color: Color(0xff828DAA),
                       letterSpacing: 0.75,
                       fontWeight: FontWeight.w400,
                     ),
@@ -76,7 +80,7 @@ class About extends StatelessWidget {
                       text:
                           "Currently, I am pursuing my postgraduate, as well as building projects on a daily basis.\n\n",
                       textsize: 16.0,
-                      color: const Color(0xff828DAA),
+                      color: Color(0xff828DAA),
                       letterSpacing: 0.75,
                       fontWeight: FontWeight.w400,
                     ),
@@ -84,7 +88,7 @@ class About extends StatelessWidget {
                       text:
                           "Here are a few technologies, I've been working with recently:\n\n",
                       textsize: 16.0,
-                      color: const Color(0xff828DAA),
+                      color: Color(0xff828DAA),
                       fontWeight: FontWeight.w400,
                       letterSpacing: 0.75,
                     ),
@@ -125,7 +129,7 @@ class About extends StatelessWidget {
           ),
           //Profile Image
           Expanded(
-            child: Container(
+            child: SizedBox(
               height: size.height / 1.5,
               width: size.width / 2 - 100,
               child: Stack(
@@ -137,14 +141,14 @@ class About extends StatelessWidget {
                     child: Card(
                       color: Colors.black12,
                       child: Container(
-                        margin: EdgeInsets.all(2.75),
+                        margin: const EdgeInsets.all(2.75),
                         height: size.height / 2,
                         width: size.width / 5,
-                        color: Color(0xFF6181B8),
+                        color: const Color(0xFF6181B8),
                       ),
                     ),
                   ),
-                  CustomImageAnimation()
+                  const CustomImageAnimation()
                 ],
               ),
             ),
@@ -156,7 +160,7 @@ class About extends StatelessWidget {
 }
 
 class CustomImageAnimation extends StatefulWidget {
-  CustomImageAnimation({Key? key}) : super(key: key);
+  const CustomImageAnimation({Key? key}) : super(key: key);
 
   @override
   // ignore: library_private_types_in_public_api

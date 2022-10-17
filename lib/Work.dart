@@ -1,8 +1,14 @@
+// ignore_for_file: library_private_types_in_public_api, file_names
+
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:portofolio/CustomText.dart';
 
+import 'WorkBox.dart';
+
 class Work extends StatefulWidget {
+  const Work({super.key});
+
   @override
   _WorkState createState() => _WorkState();
 }
@@ -21,10 +27,10 @@ class _WorkState extends State<Work> {
           Row(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              CustomText(
+              const CustomText(
                 text: "Experience",
                 textsize: 26.0,
-                color: const Color(0xffCCD6F6),
+                color: Color(0xffCCD6F6),
                 fontWeight: FontWeight.w700,
                 letterSpacing: 0,
               ),
@@ -100,7 +106,7 @@ class _WorkState extends State<Work> {
                   flex: 4,
                   child: SizedBox(
                     height: size.height * 1.2,
-                    child: WorkBox(),
+                    child: const WorkBox(),
                   ))
             ],
           )

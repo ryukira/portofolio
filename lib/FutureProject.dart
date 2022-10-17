@@ -1,3 +1,5 @@
+// ignore_for_file: file_names
+
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
@@ -70,6 +72,7 @@ class FeatureProject extends StatelessWidget {
                             textsize: 16.0,
                             color: Colors.white.withOpacity(0.4),
                             letterSpacing: 0.75,
+                            fontWeight: FontWeight.w400,
                           ),
                         ),
                       ],
@@ -94,6 +97,7 @@ class FeatureProject extends StatelessWidget {
                           textsize: 27,
                           color: Colors.grey,
                           letterSpacing: 1.75,
+                          fontWeight: FontWeight.w400,
                         ),
                       ],
                     ),
@@ -116,6 +120,7 @@ class FeatureProject extends StatelessWidget {
                           textsize: 14,
                           color: Colors.grey,
                           letterSpacing: 1.75,
+                          fontWeight: FontWeight.w400,
                         ),
                         const SizedBox(
                           width: 16.0,
@@ -125,6 +130,7 @@ class FeatureProject extends StatelessWidget {
                           textsize: 14,
                           color: Colors.grey,
                           letterSpacing: 1.75,
+                          fontWeight: FontWeight.w400,
                         ),
                         const SizedBox(
                           width: 16.0,
@@ -134,6 +140,7 @@ class FeatureProject extends StatelessWidget {
                           textsize: 14,
                           color: Colors.grey,
                           letterSpacing: 1.75,
+                          fontWeight: FontWeight.w400,
                         ),
                       ],
                     ),
