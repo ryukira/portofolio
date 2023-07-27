@@ -9,19 +9,27 @@ class DataValues {
   static const String appBuildNumber = '1';
 
   //External Links
-  static Uri devUrl = Uri.parse('');
-  static Uri githubURL = Uri.parse('');
-  static Uri linkedinURL = Uri.parse('');
-  static Uri instagramURL = Uri.parse('');
-  static Uri youtubeURL = Uri.parse('');
-  static Uri twitterURL = Uri.parse('');
-  static Uri repoURL = Uri.parse('');
-  static Uri biographyURL = Uri.parse('');
-  static Uri profilesURL = Uri.parse('');
-  static Uri toolkitURL = Uri.parse('');
-  static Uri volunteeringURL = Uri.parse('');
-  static Uri technotesURL = Uri.parse('');
-  static Uri lateNightStudentURL = Uri.parse('');
+  static Uri devUrl = Uri.parse('https://github.com/ryukira/portofolio');
+  static Uri githubURL = Uri.parse('https://github.com/ryukira');
+  static Uri linkedinURL =
+      Uri.parse('https://www.linkedin.com/in/ruli-ripaldi-48727a135/');
+  static Uri instagramURL =
+      Uri.parse('https://www.instagram.com/rully_boriel/?next=%2F');
+  static Uri youtubeURL = Uri.parse('https://www.youtube.com/@rbofficial3137');
+  static Uri twitterURL = Uri.parse('https://twitter.com/Rully_Boriel');
+  static Uri repoURL = Uri.parse('https://github.com/ryukira/portofolio');
+  static Uri biographyURL =
+      Uri.parse('https://www.linkedin.com/in/ruli-ripaldi-48727a135/');
+  static Uri profilesURL =
+      Uri.parse('https://www.linkedin.com/in/ruli-ripaldi-48727a135/');
+  static Uri toolkitURL =
+      Uri.parse('https://www.linkedin.com/in/ruli-ripaldi-48727a135/');
+  static Uri volunteeringURL =
+      Uri.parse('https://www.linkedin.com/in/ruli-ripaldi-48727a135/');
+  static Uri technotesURL =
+      Uri.parse('https://www.linkedin.com/in/ruli-ripaldi-48727a135/');
+  static Uri lateNightStudentURL =
+      Uri.parse('https://www.linkedin.com/in/ruli-ripaldi-48727a135/');
 
   // Header
   static const String headerGreetings = 'Hallo I\m';
