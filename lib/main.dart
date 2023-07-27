@@ -1,9 +1,16 @@
 import 'package:flutter/material.dart';
+import 'package:portofolio/desktop/d_about_me.dart';
+import 'package:portofolio/desktop/d_contact.dart';
+import 'package:portofolio/desktop/d_education.dart';
+import 'package:portofolio/desktop/d_experience.dart';
+import 'package:portofolio/desktop/d_footer.dart';
+import 'package:portofolio/desktop/d_technotes.dart';
+import 'package:portofolio/desktop/d_volunteering.dart';
 import 'package:portofolio/theme/app_theme.dart';
 import 'package:portofolio/theme/responsive_screen_provider.dart';
 import 'package:portofolio/widgets/nav_bar.dart';
 
-import 'desktop/header.dart';
+import 'desktop/d_header.dart';
 
 void main() {
   runApp(const MyApp());
@@ -72,7 +79,14 @@ class _HomePageState extends State<HomePage> {
         shrinkWrap: true,
         physics: const ClampingScrollPhysics(),
         children: const [
-          Header(),
+          DHeader(),
+          DAboutMe(),
+          DEducation(),
+          DExperience(),
+          DVolunteering(),
+          DTechNotes(),
+          DContact(),
+          DFooter(),
         ],
       );
     }
@@ -82,7 +96,14 @@ class _HomePageState extends State<HomePage> {
         shrinkWrap: true,
         physics: const ClampingScrollPhysics(),
         children: const [
-          Header(),
+          DHeader(),
+          DAboutMe(),
+          DEducation(),
+          DExperience(),
+          DVolunteering(),
+          DTechNotes(),
+          DContact(),
+          DFooter(),
         ],
       );
     }

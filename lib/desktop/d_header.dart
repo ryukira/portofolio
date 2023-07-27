@@ -5,8 +5,8 @@ import 'package:portofolio/widgets/social_profiles.dart';
 
 import '../statics/data_values.dart';
 
-class Header extends StatelessWidget {
-  const Header({Key? key}) : super(key: key);
+class DHeader extends StatelessWidget {
+  const DHeader({Key? key}) : super(key: key);
 
   List<Widget> headerData() {
     return [
